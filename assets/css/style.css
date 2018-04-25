@@ -647,8 +647,9 @@ input::-ms-input-placeholder {
 /*heading title all area*/
 .head_title{
     margin-bottom:90px;
+    margin-left: 20px;
 }
-.head_title h3{
+.head_title h3, .head_title h4{
     color:#413d4b;
 }
 .head_title p{
