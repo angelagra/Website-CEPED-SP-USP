@@ -170,7 +170,7 @@
                                     </div> 
 
                                     <div class="col-sm-6">
-                                        <div class="head_title">
+                                        <!-- <div class="head_title">
                                             <h3>DEIXA UMA MENSAGEM</h3>
                                             <div class="separator"></div>
                                         </div>
@@ -178,7 +178,7 @@
                                             <form action="#" id="formid">
                                                 <!--<div class="col-lg-8 col-md-8 col-sm-10 col-lg-offset-2 col-md-offset-2 col-sm-offset-1">-->
 
-                                                <div class="row">
+                                                <!-- <div class="row">
                                                     <div class="col-sm-6">
                                                         <div class="form-group">
                                                             <input type="text" class="form-control" name="name" placeholder="Nome" required="">
@@ -212,10 +212,29 @@
 
                                                 <div class="">
                                                     <input type="submit" value="Enviar" class="btn btn-primary">
-                                                </div>
+                                                </div> -->
                                                 <!--</div>--> 
-                                            </form>
-                                        </div>
+                                            <!-- </form>
+                                        </div> --> 
+
+                                        <section id="maps" class="maps">
+                                            <div class="map-overlay">
+                                                <div class="container-fluid">
+                                                    <div class="row">
+                                                        <div class="main_maps text-center">
+                                                            <div class="col-sm-12 no-padding">
+                                                                <div class="map_canvas_icon">
+                                                                    <i class="fa fa-map-marker" onClick="showmap()"></i>
+                                                                    <h2 onClick="showmap()">ENCONTRE-NOS</h2>
+                                                                </div>
+                                                                <div id="map_canvas"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+
                                     </div>
 
                                 </div>
@@ -223,6 +242,8 @@
                         </div>
                     </div>
             </section>  <!-- End of contact section -->
+
+             
 
 
 
@@ -279,15 +300,15 @@
 
         <script>
 
-                                            function showmap() {
-                                                var mapOptions = {
-                                                    zoom: 8,
-                                                    scrollwheel: false,
-                                                    center: new google.maps.LatLng(-34.397, 150.644),
-                                                    mapTypeId: google.maps.MapTypeId.ROADMAP
-                                                };
-                                                var map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
-                                            }
+            function showmap() {
+                var mapOptions = {
+                    zoom: 18,
+                    scrollwheel: false,
+                    center: new google.maps.LatLng(-23.557990, -46.735860),
+                    mapTypeId: google.maps.MapTypeId.ROADMAP
+                };
+                var map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
+            }
         </script>
 
         <script src="../js/plugins.js"></script>

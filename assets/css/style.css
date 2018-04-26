@@ -658,7 +658,7 @@ input::-ms-input-placeholder {
 
 /*home section*/
 .home{
-    background: url(../images/homebg.jpg) no-repeat 100% 100%;
+    background: url(../images/home.jpg) no-repeat 100% 100%;
     background-size: cover;
 }
 
@@ -1418,6 +1418,9 @@ button.btn-md:hover {
     overflow: hidden;
     background-size: cover;
     position:relative;
+    width: 550px;
+    height: 536px;
+    top: 118px;
 }
 
 .main_maps{
@@ -1426,8 +1429,8 @@ button.btn-md:hover {
 }
 .main_maps .map_canvas_icon{
     position:absolute;
-    left:35%;
-    top:25%;
+    left: 28%;
+    top: 22%;
     cursor:pointer;
 }
 
@@ -1440,7 +1443,7 @@ button.btn-md:hover {
 }
 
 #map_canvas{
-    height: 160px; 
+    height: 1000px;
     width: 100%;
 }
 
